@@ -1,32 +1,36 @@
-# React + TypeScript + Vite
+# Italia Costruzioni
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A premium construction company website concept designed for the Italian market.
 
-Currently, two official plugins are available:
+Built with modern web technologies and focused on delivering a luxury corporate experience through architectural visuals, responsive layouts, and conversion-focused design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Modern Corporate Design
+- Fully Responsive Layout
+- Luxury Construction Branding
+- Project Showcase
+- Service Presentation
+- Contact Lead Generation
+- Smooth Animations
+- Mobile Optimized
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Objective
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+Create a premium digital presence for a construction company specializing in residential, commercial, and infrastructure projects across Italy.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Design Philosophy
+
+Professional.
+Premium.
+Trustworthy.
+
+Built to inspire confidence from the first impression.

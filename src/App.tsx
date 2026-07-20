@@ -32,7 +32,7 @@ import infrastructureImg from "./assets/project_infrastructure.png";
 const aboutImg = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80";
 
 // Animated Counter Component using Framer Motion
-function AnimatedCounter({ value, duration = 2 }: { value: string; duration?: number }) {
+function AnimatedCounter({ value }: { value: string }) {
   const numericValue = parseInt(value.replace(/[^0-9]/g, ""), 10);
   const suffix = value.replace(/[0-9]/g, "");
   
